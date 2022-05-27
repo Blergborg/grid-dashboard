@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital@0;1&display=swap');
 
 :root {
-
+  --ff-primary: Roboto, sans-serif;
 }
 
 *,
@@ -12,3 +12,70 @@
   padding: 0;
 }
 
+body {
+  display: grid;
+  height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: darkcyan;
+}
+
+/* Header row1 */
+.row1 {}
+
+.searchbar {}
+
+.notifications {}
+
+.user {}
+
+/* Header row2 */
+.row2 {}
+
+.profile-summary {}
+
+.actions {}
+
+
+/* Sidebar */
+aside {
+  background-color: gold;
+}
+
+.logo {}
+
+.pages {}
+
+.settings {}
+
+/* used for both pages and settings */
+.tile {}
+
+
+/* Main content */
+main {
+  background-color: green;
+}
+
+/* projects */
+.projects-container {}
+
+.project-card {}
+
+.project-card-icons {}
+
+
+/* announcements */
+.announcements-container {}
+
+.announcement {}
+
+
+/* trending */
+.trending-container {}
+
+.profile-chip {}
+
+.profile-chip-text {}
